@@ -1,11 +1,22 @@
 {
   "name": "stylelint-config-dixie",
   "version": "1.0.0",
-  "description": "",
+  "description": "Config for stylelint with css property ordering",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Dixie.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dixieio/stylelint-config-dixie.git"
+  },
+  "peerDependencies": {
+    "stylelint": "^6.6.0"
+  }
 }
